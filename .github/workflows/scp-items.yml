@@ -28,7 +28,7 @@ jobs:
     - name: "Clone the Crawler"
       uses: actions/checkout@v3
       with:
-        repository: scp-data/scp_crawler
+        repository: fiscusmatt/scp_crawler
         ref: "main"
         path: scp-crawler
 
