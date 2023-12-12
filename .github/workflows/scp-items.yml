@@ -8,6 +8,7 @@ on:
       - main
     paths:
       - .github/workflows/scp-items.yml
+  workflow_dispatch:
 
 
 permissions:
